@@ -48,6 +48,5 @@ The list below are the files in the repository
 
 3. The database needed to be accessed by 100+ people: Here, a database that is optimised to handly concurrent connection will be appropriate. Instead of writing the data to s3 as done in this project, The tables can be writen to a Redshift cluster. Redshift can handle up to 500 concurrent connections. Workload Managemt and concurency scalling can be used to optimize performance if there are hundreds of users running queries at the same time.
 
-ppp
 
 
